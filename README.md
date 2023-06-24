@@ -1,10 +1,12 @@
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
-
-<div style="width:100%;display:flex;justify-content:center">
-		<h2 style='font-size: 25px;font-weight:bold;text-align:center;'>Bolt Labs API Library</h2>
-		<img style='margin:0 7px;' src='https://img.shields.io/github/v/release/bolt-labs-repos/api-library?label=version&style=plastic'/>
-		<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/bolt-labs-repos/api-library?style=plastic&color=F59E0B">
+<div align="center">
+    <img src="https://avatars.githubusercontent.com/u/113652827" alt="Logo" width="80" height="80">
+    <h2 style='font-size: 25px;font-weight:bold;text-align:center;'>Bolt Labs API Library</h2>
+	<div>
+		<img alt="GitHub contributors" src="https://img.shields.io/github/contributors/bolt-labs-repos/api-library">
+		<img alt="GitHub release (release name instead of tag name)" src="https://img.shields.io/github/v/release/bolt-labs-repos/api-library"/>
+	</div>
 </div>
 
 ## Description
@@ -38,3 +40,26 @@ API:RegisterEndpoints({
     "/api/test/2"
 })
 ```
+
+### Server Request
+Adding your endpoints to the server is a straightforward process. Open the file where you want to define your route, and add the following snippet at the top of the file (although it can be placed anywhere, the top is usually the easiest):
+
+```lua
+router = API.Router
+```
+
+It's worth mentioning that you're not required to follow this approach, but it helps keep your code clean and maintainable, especially as your resource expands.
+
+#### Defining a Route
+
+Defining a route is a simple process. By adding the following code, you can define your desired route:
+
+```lua
+-- Any value you return from this function will be sent back to the NUI.
+router:Register("/api/test", function(req)
+    local data = {}
+    return data
+end)
+```
+
+As you can see, this code snippet accepts one parameter. This parameter grants you access to the request data, which currently includes only the body for exchanging data between the server and NUI. In the future, additional request options will be supported.
