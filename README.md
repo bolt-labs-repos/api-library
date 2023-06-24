@@ -4,13 +4,19 @@
     <img src="https://avatars.githubusercontent.com/u/113652827" alt="Logo" width="80" height="80">
     <h2 style='font-size: 25px;font-weight:bold;text-align:center;'>Bolt Labs API Library</h2>
 	<div>
+		<img alt="GitHub" src="https://img.shields.io/github/license/bolt-labs-repos/api-library">
 		<img alt="GitHub contributors" src="https://img.shields.io/github/contributors/bolt-labs-repos/api-library">
-		<img alt="GitHub release (release name instead of tag name)" src="https://img.shields.io/github/v/release/bolt-labs-repos/api-library"/>
+<img alt="GitHub release (release name instead of tag name)" src="https://img.shields.io/github/v/release/bolt-labs-repos/api-library">
 	</div>
 </div>
 
 ## Description
 This lightweight library was designed specifically for the development of a UI-focused resource. Throughout the process, We realized the need to repeatedly create boilerplate code to effectively communicate with the backend of my resource. In my search for a streamlined solution, I conceptualized a drag-and-drop library that places a strong emphasis on simplicity and a straightforward data structure.
+
+## Join US
+
+If you require any assistance or have suggestions, we encourage you to join our Discord community. We provide dedicated channels where you can seek help and support. Your active participation is highly valued, and we are here to address any queries or provide guidance as needed.
+[Discord Invite](https://discord.gg/kbJcDNYhaP)
 
 ## Getting Started
 1. Download the Library: Go to the release section and obtain the latest version of the library. It's a single file, making it easy to download.
