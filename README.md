@@ -11,7 +11,7 @@
 </div>
 
 ## Description
-This lightweight library was designed specifically for the development of a UI-focused resource. Throughout the process, We realized the need to repeatedly create boilerplate code to effectively communicate with the backend of my resource. In my search for a streamlined solution, I conceptualized a drag-and-drop library that places a strong emphasis on simplicity and a straightforward data structure.
+This lightweight library was designed specifically for the development of a UI-focused resource. Throughout the process, We realized the need to repeatedly create boilerplate code to effectively communicate with the backend of our resources. In my search for a streamlined solution, I conceptualized a drag-and-drop library that places a strong emphasis on simplicity and a straightforward data structure.
 
 ## Join US
 
