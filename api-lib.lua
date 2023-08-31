@@ -65,7 +65,7 @@ if (not IsDuplicityVersion()) then
 
     end
 
-    function _G.API:RegisterEndponts(endpoints)
+    function _G.API:RegisterEndpoints(endpoints)
         for _, endpoint in pairs(endpoints) do
             RegisterNUICallback(endpoint, function(data, response)
                 local data = self:Request(endpoint, data)
